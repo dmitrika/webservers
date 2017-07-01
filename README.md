@@ -6,13 +6,13 @@ wrk --latency -t12 -c100 -d10s http://localhost:3000/
 
 Benchmarks were performed on the following hardware:
 ```
-  Model Name:	MacBook Pro
-  Processor Name:	Intel Core i7
-  Processor Speed:	2,2 GHz
-  Total Number of Cores:	4
-  L2 Cache (per Core):	256 KB
-  L3 Cache:	6 MB
-  Memory:	16 GB
+Model Name: MacBook Pro
+Processor Name: Intel Core i7
+Processor Speed:	2,2 GHz
+Total Number of Cores:	4
+L2 Cache (per Core):	256 KB
+L3 Cache:	6 MB
+Memory:	16 GB
 ```
 
 ## Rocket – Rust (nightly) web framework

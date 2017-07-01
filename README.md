@@ -30,3 +30,18 @@ Running 10s test @ http://localhost:8000/
   47839 requests in 10.10s, 6.66MB read
 Requests/sec:   4735.06
 Transfer/sec:    675.12KB
+
+Iron, An Extensible, Concurrent Web Framework for Rust
+Running 10s test @ http://localhost:3000/
+  12 threads and 100 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.05ms    3.69ms 151.70ms   99.83%
+    Req/Sec     7.44k     2.67k    9.99k    78.17%
+  Latency Distribution
+     50%    0.87ms
+     75%    0.97ms
+     90%    1.06ms
+     99%    1.13ms
+  671477 requests in 10.10s, 73.00MB read
+Requests/sec:  66480.29
+Transfer/sec:      7.23MB

@@ -17,7 +17,7 @@ Benchmarks were performed on the following hardware:
 
 ## Rocket – Rust (nightly) web framework
 
-`
+```
 Running 10s test @ http://localhost:8000/
   12 threads and 100 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
@@ -31,10 +31,10 @@ Running 10s test @ http://localhost:8000/
   47839 requests in 10.10s, 6.66MB read
 Requests/sec:   4735.06
 Transfer/sec:    675.12KB
-`
+```
 
 ## Iron – An Extensible, Concurrent Web Framework for Rust
-`
+```
 Running 10s test @ http://localhost:3000/
   12 threads and 100 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
@@ -48,10 +48,10 @@ Running 10s test @ http://localhost:3000/
   671477 requests in 10.10s, 73.00MB read
 Requests/sec:  66480.29
 Transfer/sec:      7.23MB
-`
+```
 
 ## Echo – High performance, minimalist Go web framework
-`
+```
 Running 10s test @ http://localhost:1323/
   12 threads and 100 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
@@ -65,4 +65,4 @@ Running 10s test @ http://localhost:1323/
   655279 requests in 10.10s, 81.24MB read
 Requests/sec:  64883.20
 Transfer/sec:      8.04MB
-`
+```
